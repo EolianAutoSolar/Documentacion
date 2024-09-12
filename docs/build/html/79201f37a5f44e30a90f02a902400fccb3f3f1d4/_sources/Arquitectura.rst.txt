@@ -1,5 +1,5 @@
 Arquitectura general del auto solar
-####################
+########################################
 
 Conceptos generales
 ________________________________
@@ -14,7 +14,7 @@ Nunc tempus est diam, non auctor justo dictum eu. Suspendisse at enim congue, co
 
 Donec lacus nisi, pharetra id eros non, sagittis pretium sem. Morbi ut sem diam. Pellentesque urna urna, condimentum et venenatis a, vulputate quis ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Aenean consequat convallis enim, sed convallis erat eleifend ut. Donec iaculis lorem et ligula pulvinar, ac fermentum neque maximus. Aenean scelerisque, risus nec finibus sagittis, velit leo suscipit neque, porttitor tincidunt leo est non ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
 
-Architecture
+Arquitectura
 ###############
 
 .. drawio-figure:: ./Drawios/Architecture.drawio

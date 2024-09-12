@@ -1,5 +1,5 @@
 Arquitectura general del auto solar
-####################
+########################################
 
 Conceptos generales
 ________________________________
