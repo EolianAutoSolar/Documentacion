@@ -3,14 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Documentation documentation
-===========================
+Documentación proyecto Eolian
+==================================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Este documento considera todos los elementos necesarios para la construcción del auto solar.
 
-To build this documentation
+Para crear la documentación en la terminal:
 
 .. code-block:: bash
 
@@ -20,5 +18,5 @@ To build this documentation
    :maxdepth: 2
    :caption: Contents:
 
-   page1
+   Arquitectura
 
