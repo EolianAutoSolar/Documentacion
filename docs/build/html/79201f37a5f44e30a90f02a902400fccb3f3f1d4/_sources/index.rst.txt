@@ -19,4 +19,5 @@ Para crear la documentación en la terminal:
    :caption: Contents:
 
    Arquitectura
+   Electrica
 

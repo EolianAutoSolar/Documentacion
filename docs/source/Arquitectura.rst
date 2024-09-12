@@ -1,8 +1,11 @@
+####################################
 Arquitectura general del auto solar
-########################################
+####################################
+
 
 Conceptos generales
-________________________________
+########################################
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et sem vitae quam mattis posuere. Morbi lacinia diam pellentesque, commodo erat et, viverra libero. Aenean feugiat eleifend lectus tincidunt mattis. Nunc ut venenatis elit, quis venenatis mi. Praesent sit amet sem at turpis tempor cursus. Nam mollis ac est ut cursus. Sed fermentum congue consectetur.
 
