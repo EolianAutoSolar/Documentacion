@@ -28,4 +28,13 @@ Documentacion makefile https://makefiletutorial.com/
 
    Arquitectura
    Electrica
+   Mecánica
+   .. Software
+   .. Diseño
+   .. Seguridad
+   .. Pruebas
+   .. Integración
+   .. Mantenimiento
+   .. Costos
+
 

@@ -1,2 +1,2 @@
 # Documentacion
-Documentación proyecto
+Documentación proyecto con el fin de recopilar y mantener actualizada la información.
