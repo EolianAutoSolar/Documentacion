@@ -56,7 +56,10 @@ Documentacion makefile https://makefiletutorial.com/
    Warnings can have more than one paragraph. Successive paragraphs must
    indent to the same level as the rest of the warning.
 
-Readme File
+
 ===========
 
-.. include:: ../../Leeme.md
+.. toctree:: 
+   :caption: Readme
+
+   leeme.rst
