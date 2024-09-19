@@ -8,7 +8,7 @@
 
 project = 'Documentacion'
 copyright = '2024, Francisco Ulloa'
-author = 'Francisco Ulloa'
+author = ':D'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
