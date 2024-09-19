@@ -20,4 +20,8 @@ Arquitectura Eléctrica
    :format: png
    :page-name: Arquitectura Auto Solar
 
-   
+
+.. toctree::
+   :maxdepth: 1 
+
+   Baterías
