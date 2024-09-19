@@ -26,4 +26,7 @@ pygments_style = 'sphinx'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['\_static']
 html_logo = 'logo_eolian_blanco (1).png'
-
+html_theme_options = {
+    'logo_only': False,  # Mostrar el logo y el texto del proyecto
+    'display_version': True,  # Mostrar la versión del proyecto
+}
