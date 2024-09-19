@@ -23,12 +23,14 @@ Ir a la carpeta documentacion y ejecutar el archivo makefile con
 Documentacion makefile https://makefiletutorial.com/
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Contents:
+   :maxdepth: 2
+   :caption: Contenidos:
 
    Arquitectura
    Electrica
+   Software
    Mecánica
+
   
 
 
