@@ -1,5 +1,5 @@
  Inicio
-================
+===================================
 
 Dentro del repositorio ubicar la carpeta docs/source. En esta carpeta se ubican los archivos rst, imágenes, drawios y el archivo de configuracion conf.py.
 
@@ -217,6 +217,27 @@ tabla de contenidos.
 En el caso de usar carpetas para ordenar los documentos, no sen ve reflejadas en
 el árbol de contenidos. Pero sí debe especificarse la ruta relativa al documento
 como se ve en la últimas dos líneas del ejemplo de arriba.
+
+Documentación en terminal
+--------------------------
+
+Para crear la documentación en la terminal, se debe dirigir a la carpeta documentacion y ejecutar el archivo makefile con
+
+.. code-block:: bash
+
+   $make
+
+.. code-block:: bash
+
+   $sphinx-build -M html docs/source/ docs/build/
+
+o
+
+.. code-block:: powershell
+
+   make builddocs
+
+Documentacion makefile https://makefiletutorial.com/
 
 Otras páginas
 -------------

@@ -23,7 +23,8 @@
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Área Mecánica" href="Mec%C3%A1nica.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -55,6 +56,19 @@
 <li class="toctree-l1"><a class="reference internal" href="Electrica.html">Área Eléctrica</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Software.html">Área Software</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Mec%C3%A1nica.html">Área Mecánica</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Readme</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Escribir la documentación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#guia-restructuredtext">Guía reStructuredText</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#pagina-principal">Página principal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#documentacion-en-terminal">Documentación en terminal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#otras-paginas">Otras páginas</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#paginas-generadas-a-partir-de-docstrings">Páginas generadas a partir de <em>docstrings</em></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#apidoc">APIdoc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#autosummary">Autosummary</a></li>
 </ul>
 
         </div>
@@ -297,6 +311,21 @@ tabla de contenidos.</p>
 el árbol de contenidos. Pero sí debe especificarse la ruta relativa al documento
 como se ve en la últimas dos líneas del ejemplo de arriba.</p>
 </section>
+<section id="documentacion-en-terminal">
+<h1>Documentación en terminal<a class="headerlink" href="#documentacion-en-terminal" title="Link to this heading"></a></h1>
+<p>Para crear la documentación en la terminal, se debe dirigir a la carpeta documentacion y ejecutar el archivo makefile con</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">$make</span>
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">$sphinx</span>-build<span class="w"> </span>-M<span class="w"> </span>html<span class="w"> </span>docs/source/<span class="w"> </span>docs/build/
+</pre></div>
+</div>
+<p>o</p>
+<div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">builddocs</span>
+</pre></div>
+</div>
+<p>Documentacion makefile <a class="reference external" href="https://makefiletutorial.com/">https://makefiletutorial.com/</a></p>
+</section>
 <section id="otras-paginas">
 <h1>Otras páginas<a class="headerlink" href="#otras-paginas" title="Link to this heading"></a></h1>
 <p>Hay que acordarse de poner un título principal que será mostrado en la tabla de
@@ -425,7 +454,9 @@ cambios.</p>
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Mec%C3%A1nica.html" class="btn btn-neutral float-left" title="Área Mecánica" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
 
   <hr/>
 
