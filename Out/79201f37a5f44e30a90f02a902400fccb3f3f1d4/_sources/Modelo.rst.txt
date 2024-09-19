@@ -18,9 +18,9 @@ Diseño del sistema
 
 #########################
 
-.. drawio-figure:: ./Drawios/ejemplo.drawio
+.. drawio-figure:: ./Drawios/Electrica.drawio
    :format: png
-   :page-name: Page-1
+   :page-name: modelo
 
    
    

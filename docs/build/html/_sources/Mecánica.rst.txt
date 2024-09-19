@@ -18,7 +18,7 @@ Arquitectura Mecánica
 
 #########################
 
-.. drawio-figure:: ./Drawios/ejemplo.drawio
+.. drawio-figure:: ./Drawios/Meca.drawio
    :format: png
    :page-name: Page-1
 

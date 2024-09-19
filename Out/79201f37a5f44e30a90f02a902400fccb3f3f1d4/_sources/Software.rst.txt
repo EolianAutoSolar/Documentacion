@@ -18,7 +18,7 @@ Arquitectura  Software
 
 #########################
 
-.. drawio-figure:: ./Drawios/ejemplo.drawio
+.. drawio-figure:: ./Drawios/sw.drawio
    :format: png
    :page-name: Page-1
 

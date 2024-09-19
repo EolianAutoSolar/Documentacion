@@ -5,6 +5,9 @@
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+
+version = '1.0.0'  # Reemplaza con la versión actual
+
 html_logo = 'logo_eolian_blanco (1).png'
 html_theme_options = {
     'logo_only': False,  # Mostrar el logo y el texto del proyecto
@@ -30,4 +33,6 @@ pygments_style = 'sphinx'
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-
+html_css_files = [
+    'custom.css',
+]
