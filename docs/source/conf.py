@@ -5,6 +5,11 @@
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+html_logo = 'logo_eolian_blanco (1).png'
+html_theme_options = {
+    'logo_only': False,  # Mostrar el logo y el texto del proyecto
+    'display_version': True,  # Mostrar la versión del proyecto
+}
 
 project = 'Documentacion'
 copyright = '2024, Eolian'
@@ -24,9 +29,5 @@ pygments_style = 'sphinx'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['\_static']
-html_logo = 'logo_eolian_blanco (1).png'
-html_theme_options = {
-    'logo_only': False,  # Mostrar el logo y el texto del proyecto
-    'display_version': True,  # Mostrar la versión del proyecto
-}
+html_static_path = ['_static']
+
