@@ -32,6 +32,8 @@ Documentacion makefile https://makefiletutorial.com/
    Mecánica
 
 .. note::
+   
+
    This is note text. Use a note for information you want the user to
    pay particular attention to.
 
@@ -42,4 +44,19 @@ Documentacion makefile https://makefiletutorial.com/
    Notes can have more than one paragraph. Successive paragraphs must
    indent to the same level as the rest of the note.
 
+.. warning::
 
+   This is a warning. Use a warning for information you want to make sure the
+   user sees before proceeding.
+
+   If warning text runs over a line, make sure the lines wrap and are indented
+   to the same level as the warning tag. If formatting is incorrect, part of
+   the warning might not render in the HTML output.
+
+   Warnings can have more than one paragraph. Successive paragraphs must
+   indent to the same level as the rest of the warning.
+
+Readme File
+===========
+
+.. include:: ../../Leeme.md

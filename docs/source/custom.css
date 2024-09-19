@@ -1,3 +1,3 @@
 .wy-nav-content {
-    max-width: none !important; /* Elimina el ancho máximo del contenido */
+    max-width: 1200 !important; /* Elimina el ancho máximo del contenido */
 }
