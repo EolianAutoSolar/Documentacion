@@ -14,6 +14,8 @@ html_theme_options = {
     'display_version': True,  # Mostrar la versión del proyecto
 }
 
+html_favicon = 'mini.png'  # Icono de la pestaña del navegador
+
 project = 'Documentacion'
 copyright = '2024, Eolian'
 author = ':D'
