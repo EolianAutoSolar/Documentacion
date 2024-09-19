@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 18 23:31:38 2024
+# Make data base, printed on Wed Sep 18 23:54:04 2024
 
 # Variables
 
@@ -41,7 +41,7 @@ main_dir = $(shell pwd)
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11448_EIGQMNLDNPFYIOZG
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1756_JGWJDPSNNKZQDABM
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -72,6 +72,8 @@ MAKEFLAGS = pqrR
 ONEDRIVE = C:\Users\Ale_s\OneDrive - Universidad de Chile (1)
 # makefile
 CURDIR := d:/Documento/OneDrive/Documents/GitHub/Documentacion
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -89,7 +91,7 @@ MAKEFILE_LIST := D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 11448
+VSCODE_PID = 1756
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -215,7 +217,7 @@ PROCESSOR_REVISION = 9e09
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=101/1024=10%, Rehash=0, Collisions=9/129=7%
+# Load=102/1024=10%, Rehash=0, Collisions=10/130=8%
 
 # Pattern-specific Variable Values
 
@@ -280,6 +282,6 @@ all:
 # strcache performance: lookups = 9 / hit rate = 33%
 # hash-table stats:
 # Load=6/8192=0%, Rehash=0, Collisions=0/9=0%
-# Finished Make data base on Wed Sep 18 23:31:38 2024
+# Finished Make data base on Wed Sep 18 23:54:04 2024
 
  

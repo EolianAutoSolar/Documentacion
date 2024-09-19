@@ -3,10 +3,13 @@ make: Entering directory 'd:/Documento/OneDrive/Documents/GitHub/Documentacion'
  
 process_begin: CreateProcess(NULL, pwd, ...) failed.
 D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:7: pipe: No such file or directory
+
 process_begin: CreateProcess(NULL, pwd, ...) failed.
 D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:7: pipe: No such file or directory
+
 process_begin: CreateProcess(NULL, pwd, ...) failed.
 D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:8: pipe: No such file or directory
+
 process_begin: CreateProcess(NULL, pwd, ...) failed.
 D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:8: pipe: No such file or directory
 process_begin: CreateProcess(NULL, pwd, ...) failed.

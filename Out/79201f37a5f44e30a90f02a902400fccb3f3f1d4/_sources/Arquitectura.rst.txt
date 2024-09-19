@@ -4,7 +4,8 @@ Arquitectura general del auto solar
 
 
 Conceptos generales
-########################################
+===================
+
 Desde el punto de vista eléctrico un auto solar está comprendido por algunos de los siguientes sistemas:
 
    #. Unidad de almacenamiento eléctrico (Baterías o supercapacitores)
