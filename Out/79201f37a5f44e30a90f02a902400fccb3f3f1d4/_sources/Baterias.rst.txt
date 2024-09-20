@@ -1,6 +1,10 @@
 ####################################
-Baterías
+Almacenamiento
 ####################################
+
+Dentro de un vehículo eléctrico,una pieza clave es el sistema de almacenamiento de energía, ya que se asemeja al combustible  en un vehículo convencional y sin esto, no se puede generar el movimiento.
+
+Un sistema de almacenamiento se podría componer por unidades mas pequeñas, como celdas, las cuales caracterizan el sistema a través de sus propiedades individuales. Su vida e intensidad de uso dependerá de varios factores y que se proceden a detallar a continuación.
 
 ************************************************************************
 Sistema de almacenamiento eléctrico

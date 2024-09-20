@@ -231,7 +231,7 @@ Para crear la documentación en la terminal, se debe dirigir a la carpeta docume
 
    $sphinx-build -M html docs/source/ docs/build/
 
-o
+o en Windows
 
 .. code-block:: powershell
 
