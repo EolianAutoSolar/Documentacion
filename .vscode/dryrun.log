@@ -1,20 +1,5 @@
 make.exe builddocs -f D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'd:/Documento/OneDrive/Documents/GitHub/Documentacion'
- 
-process_begin: CreateProcess(NULL, pwd, ...) failed.
-D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:7: pipe: No such file or directory
-process_begin: CreateProcess(NULL, pwd, ...) failed.
-D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:7: pipe: No such file or directory
-process_begin: CreateProcess(NULL, pwd, ...) failed.
-D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:8: pipe: No such file or directory
-process_begin: CreateProcess(NULL, pwd, ...) failed.
-D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:8: pipe: No such file or directory
-process_begin: CreateProcess(NULL, pwd, ...) failed.
-D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:9: pipe: No such file or directory
-
-process_begin: CreateProcess(NULL, pwd, ...) failed.
-D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:9: pipe: No such file or directory
-
 sphinx-build -M html docs/source/ docs/build/
 mkdir -p Out/79201f37a5f44e30a90f02a902400fccb3f3f1d4
 cp -R /docs/build/html/ /Out/79201f37a5f44e30a90f02a902400fccb3f3f1d4
@@ -22,3 +7,16 @@ cp -R /eolian.png /Out
 cp -R /index.html /Out
 make: Leaving directory 'd:/Documento/OneDrive/Documents/GitHub/Documentacion'
  
+process_begin: CreateProcess(NULL, pwd, ...) failed.
+D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:7: pipe: No such file or directory
+process_begin: CreateProcess(NULL, pwd, ...) failed.
+D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:7: pipe: No such file or directory
+process_begin: CreateProcess(NULL, pwd, ...) failed.
+D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:8: pipe: No such file or directory
+process_begin: CreateProcess(NULL, pwd, ...) failed.
+D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:8: pipe: No such file or directory
+process_begin: CreateProcess(NULL, pwd, ...) failed.
+D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:9: pipe: No such file or directory
+process_begin: CreateProcess(NULL, pwd, ...) failed.
+D:\Documento\OneDrive\Documents\GitHub\Documentacion\makefile:9: pipe: No such file or directory
+

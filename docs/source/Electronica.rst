@@ -1,5 +1,5 @@
 ####################################
-Área Eléctrica
+Electrónica
 ####################################
 
 Dentro del proyecto Eolian, el área eléctrica se encarga de tareas fundamentales para el funcionamiento del auto solar. A continuación, se presentan los conceptos generales de esta área y la arquitectura general del auto solar eléctrico.
@@ -28,5 +28,5 @@ Arquitectura Eléctrica
    :caption: Subáreas
    
    Baterias
-   Electronica
    Modelo
+   Motores

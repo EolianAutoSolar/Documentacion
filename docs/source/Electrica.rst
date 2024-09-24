@@ -28,4 +28,6 @@ Arquitectura Eléctrica
    :caption: Subáreas
    
    Baterias
+   Electronica
    Modelo
+   Motores
