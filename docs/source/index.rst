@@ -43,8 +43,7 @@ Este documento considera todos los elementos necesarios para la construcción de
    Warnings can have more than one paragraph. Successive paragraphs must
    indent to the same level as the rest of the warning.
 
-
-===========
+#############################
 
 .. toctree:: 
    :caption: Readme

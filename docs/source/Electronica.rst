@@ -21,12 +21,3 @@ Arquitectura Eléctrica
    :page-name: Arquitectura Auto Solar
 
 
-#########################
-
-.. toctree::
-   :maxdepth: 1 
-   :caption: Subáreas
-   
-   Baterias
-   Modelo
-   Motores

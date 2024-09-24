@@ -1,5 +1,7 @@
- Inicio
-===================================
+ Inicio de la documentación
+
+=====================================
+
 
 Dentro del repositorio ubicar la carpeta docs/source. En esta carpeta se ubican los archivos rst, imágenes, drawios y el archivo de configuracion conf.py.
 
@@ -25,7 +27,7 @@ unas *directivas* que indican qué módulos/funciones/clases mostrar.
 Al final un archivo ``.rst`` se ve algo así::
 
   Mi Programa
-  ===========
+  =========== 
 
   Esta es la documentación para mi programa.
 
