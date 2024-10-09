@@ -23,4 +23,8 @@ Arquitectura Mecánica
    :page-name: Page-1
 
    
+.. toctree::
+   :maxdepth: 1 
+   :caption: Subáreas
    
+   Frenos
