@@ -24,8 +24,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Área Mecánica" href="Frenos.html" />
-    <link rel="prev" title="Área Software" href="Software.html" /> 
+    <link rel="next" title="Escribir la documentación" href="leeme.html" />
+    <link rel="prev" title="Área Mecánica" href="Mec%C3%A1nica.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -56,10 +56,10 @@
 <li class="toctree-l1"><a class="reference internal" href="Arquitectura.html">Arquitectura general del auto solar</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Electrica.html">Área Eléctrica</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Software.html">Área Software</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Área Mecánica</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#sistema-mecanico">Sistema mecánico</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#conceptos-generales">Conceptos generales</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="Frenos.html">Área Mecánica</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="Mec%C3%A1nica.html">Área Mecánica</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="Mec%C3%A1nica.html#sistema-mecanico">Sistema mecánico</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="Mec%C3%A1nica.html#conceptos-generales">Conceptos generales</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Área Mecánica</a></li>
 </ul>
 </li>
 </ul>
@@ -92,9 +92,10 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="Mec%C3%A1nica.html">Área Mecánica</a></li>
       <li class="breadcrumb-item active">Área Mecánica</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/Mecánica.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/Frenos.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -104,24 +105,52 @@
              
   <section id="area-mecanica">
 <h1>Área Mecánica<a class="headerlink" href="#area-mecanica" title="Link to this heading"></a></h1>
-<section id="sistema-mecanico">
-<h2>Sistema mecánico<a class="headerlink" href="#sistema-mecanico" title="Link to this heading"></a></h2>
+<section id="sistema-de-frenado">
+<h2>Sistema de Frenado<a class="headerlink" href="#sistema-de-frenado" title="Link to this heading"></a></h2>
+<p>El sistema de Frenado dentro de cualquier vehículo es de suma importancia, ya que es el encargado de detener el vehículo en caso de ser necesario. A continuación, se presentan los conceptos generales de esta área y el cosideraciones del diseño del sistema de frenado del auto solar.</p>
 <section id="conceptos-generales">
 <h3>Conceptos generales<a class="headerlink" href="#conceptos-generales" title="Link to this heading"></a></h3>
-<p>Hola quiero probar si esto se ve en la página web
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et sem vitae quam mattis posuere. Morbi lacinia diam pellentesque, commodo erat et, viverra libero. Aenean feugiat eleifend lectus tincidunt mattis. Nunc ut venenatis elit, quis venenatis mi. Praesent sit amet sem at turpis tempor cursus. Nam mollis ac est ut cursus. Sed fermentum congue consectetur.</p>
-<p>Mauris ut felis et enim commodo mollis pretium ut metus. Fusxwce et lectus tristique, blandit nunc sit amet, eleifend urna. Proin tristique justo ut justo maximus maximus. Maecenas feugiat dapibus fermentum. Donec lorem elit, dapibus vitae facilisis vitae, hendrerit eget tellus. Phasellus sagittis vestibulum molestie. Mauris sed laoreet libero, ac eleifend magna. Integer viverra eros libero, a gravida justo vehicula aliquam. Sed tempor vitae elit at efficitur. Nulla ullamcorper commodo ante, eget mattis dui congue ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce massa diam, sodales non turpis fermentum, pretium vehicula mi. Donec id nisi nec sapien maximus volutpat. Integer at felis eget odio faucibus tempor. Donec purus quam, commodo vel eleifend non, suscipit in libero.</p>
-<p>Arquitectura Mecánica</p>
+<p>Calipers: Son los encargados de ejercer presión sobre los discos de freno para detener el vehículo.
+.. image:: Imagenes/General/ArquitecturaFrenos-caliper.jpg</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">width<span class="colon">:</span></dt>
+<dd class="field-odd"><p>1080</p>
+</dd>
+<dt class="field-even">alt<span class="colon">:</span></dt>
+<dd class="field-even"><p>Un tipo de caliper buscado en internet</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>Pastillas de freno: Son las encargadas de ejercer fricción sobre los discos de freno para detener el vehículo.
+.. image:: Imagenes/General/Arquitecturapastillas-frenos.jpg</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">width<span class="colon">:</span></dt>
+<dd class="field-odd"><p>1080</p>
+</dd>
+<dt class="field-even">alt<span class="colon">:</span></dt>
+<dd class="field-even"><p>Pastillas de freno buscado en internet</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>Disco de freno: Es el componente que gira junto con la llanta y es detenido por las pastillas de freno.
+.. image:: Imagenes/General/ArquitecturaDisco-frenos.jpg</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">width<span class="colon">:</span></dt>
+<dd class="field-odd"><p>1080</p>
+</dd>
+<dt class="field-even">alt<span class="colon">:</span></dt>
+<dd class="field-even"><p>Disco de freno buscado en internet</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>Esquema del sistema de frenado</p>
 <hr class="docutils" />
 <figure class="align-default">
-<img alt="_images/Meca.png" class="drawio" src="_images/Meca.png" />
+<img alt="_images/Frenado.png" class="drawio" src="_images/Frenado.png" />
 </figure>
-<div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Subáreas</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Frenos.html">Área Mecánica</a></li>
-</ul>
-</div>
 </section>
 </section>
 </section>
@@ -130,8 +159,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et sem vitae quam
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="Software.html" class="btn btn-neutral float-left" title="Área Software" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="Frenos.html" class="btn btn-neutral float-right" title="Área Mecánica" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Mec%C3%A1nica.html" class="btn btn-neutral float-left" title="Área Mecánica" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="leeme.html" class="btn btn-neutral float-right" title="Escribir la documentación" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
